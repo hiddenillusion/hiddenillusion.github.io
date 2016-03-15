@@ -1,0 +1,15 @@
+- Built for Jekyll v3 (otherwise code snippets would have to be written in older {% highlight %} syntax)
+- [lanyon](https://github.com/poole/lanyon) theme
+	- this theme's sidebar was also flipped to provide a TOC layout for posts; [pure drawer](https://github.com/mac81/pure-drawer) looked promising as an alternative
+- [Notepad](https://github.com/hmfaysal/Notepad/blob/gh-pages/index.html), [Foundation](http://foundation.zurb.com/sites/download.html) & [animate](https://github.com/daneden/animate.css) were used to create the blog post index page.
+- tooltips based on [indigo](https://github.com/sergiokopplin/indigo) & [MilanAryal]https://github.com/MilanAryal/milanaryal.github.io
+- Sitemap based on [made mistakes](https://github.com/mmistakes/made-mistakes-jekyll) & [slickmap](https://github.com/astuteo/slickmap)
+- archives
+	- [jekyll-archives](https://github.com/jekyll/jekyll-archives) ended up creating too many additional files & I felt continuously having to generate & commit was going to be more overhead than I'd want.
+	- Ended up using a single static tag [page](https://github.com/hiddenillusion/hiddenillusion.github.io/tags.html) and looping over all of the `site.tags`
+- [houdini](http://github.com/cferdinandi/houdini) was used to collapse/expand
+- [scrollUp](https://raw.githubusercontent.com/markgoodyear/scrollup/master/src/jquery.scrollUp.js) was used to create the JavaScript "Scroll to top" button.
+- [FontAwesome](https://fortawesome.github.io/Font-Awesome/) was used for, well, awesome fonts/icons
+- [resumecard](https://github.com/ddbullfrog/resumecard) was used for the resume page.
+- estimated read time was based on [this post](https://sacha.me/articles/jekyll-word-counts)
+- 404 image from [css tricks](https://css-tricks.com/thispagedoesntexist)

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<!-- Toggleable TOC sidebar -->
+<label for="toc-sidebar-checkbox" class="toc-sidebar-toggle"></label>
+<input type="checkbox" class="toc-sidebar-checkbox" id="toc-sidebar-checkbox">
+<div class="toc-sidebar" id="toc-sidebar">
+  <div class="toc-sidebar-title">
+    Post Layout
+  </div>
+
+  <div class="toc-sidebar-item">
+    <div id="toc-content">
+        <div class="toc-content-text"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Post content -->
+<div class="post">
+  <div class="post-title"><h1>{{ page.title }}</h1></div>
+  <span class="post-info"><i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%-d"  }} • {% include estimated_read_time.html %} • {{ page.content | strip_html | number_of_words | append: " words"}}</span>
+
+  <br/>
+  <br/>
+  
+  {{ content }}
+
+{% if page.tags.size > 0 %}
+  <div class="tags">
+    <h2>Post Tags</h2>
+    <small>
+        {% assign sorted_tags = page.tags | sort %}
+        {% for tag in sorted_tags %}
+          <span class="tag-mark tooltip">
+              <i class="fa fa-tag"></i>
+              <a class="link" href="{{ site.url }}/tag/index.html#{{ tag | cgi_escape }}" data-title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
+            </span>
+          {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    </small>
+  </div>
+{% endif %}
+
+{% if site.related_posts %}
+  <div class="related">
+    <h2>Related Posts</h2>
+    <ul class="related-posts">
+      {% for post in site.related_posts limit:3 %}
+        <li>
+            <a href="{{ post.url }}">
+              {{ post.title }}</a>
+              <small>{{ post.date | date_to_string }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

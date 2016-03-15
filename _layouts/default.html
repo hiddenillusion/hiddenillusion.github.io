@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <!-- <body class="theme-base-0d"> -->
+  <body>
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.url }}" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- sidebar toggle -->
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+
+    <!-- expander JS to collapse/expand content -->
+    <script>
+      houdini.init();
+    </script>
+
+    <!-- scroll to top -->
+    <script>
+      $(function () {
+        $.scrollUp({
+          animation: 'fade',
+        });
+      });
+    </script>
+
+  <!-- builds TOC of a post -->
+  <script>
+    buildTOC();
+  </script>
+
+  <!-- insert toc-sidebar toggle -->
+  <script>
+    (function(document) {
+      var toc_toggle = document.querySelector('.toc-sidebar-toggle');
+      var toc_sidebar = document.querySelector('#toc-sidebar');
+      var toc_checkbox = document.querySelector('#toc-sidebar-checkbox');
+
+      document.addEventListener('click', function(t) {
+        var toc_target = t.target;
+
+        if(!toc_checkbox.checked ||
+           toc_sidebar.contains(toc_target) ||
+           (toc_target === toc_checkbox || toc_target === toc_toggle)) return;
+
+        toc_checkbox.checked = false;
+      }, false);
+    })(document);
+  </script>
+  </body>
+</html>

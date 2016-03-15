@@ -1,0 +1,37 @@
+---
+layout: page
+title: " :: Tags"
+permalink: /tag/index.html
+---
+
+{% assign tags_list = site.tags | sort %}
+<!-- this builds the "tag cloud" -->
+<ul class="tag-box inline">  
+{% for tag in tags_list %} 
+	<li><a href="#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+{% endfor %}
+</ul>
+
+<div class="deviter"></div>
+
+<!-- this lists each post which is tagged with said tag --> 
+{% for tag in tags_list %} 
+	<h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+	<ul class="post-list">
+		{% assign pages_list = tag[1] %}  
+		{% for post in pages_list %}
+			{% if post.title != null %}
+				{% if group == null or group == post.group %}
+					<li>
+						<small>
+							{{ post.date | date: "%b %-d, %Y" }} &raquo;
+						</small>
+						<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+					</li>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}
+	</ul>
+{% endfor %}

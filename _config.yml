@@ -1,0 +1,56 @@
+# Permalinks
+permalink:           pretty #"/blog/:year/:month/:day/:title"
+
+# Site Settings
+title:               ":: hiddenillusion ::"
+tagline:             "... look beyond"
+quote:				       "My crime is being curious"       
+url:                 "https://hiddenillusion.github.io" #http://127.0.0.1:4000
+baseurl:             "/"
+paginate:            5
+#paginate_path:		"/blog/page:num"
+timezone:			'America/New_York'
+
+# Author Information
+author:
+  name:              "Glenn Edwards"
+  fullname:			     "Glenn P. Edwards Jr."
+  url:               https://hiddenillusion.github.io
+  description:       "geek, forensicator, researcher & traveler"
+
+# Social Information
+social: 
+  github: hiddenillusion
+  twitter: hiddenillusion
+  linkedin: glennpedwardsjr
+  speakerdeck: hiddenillusion
+
+# Jekyll build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+#jekyll-archives:
+#  enabled:
+#    - tags
+#  layout: 'archive'
+#  layouts:
+#    tag: tag-archive-layout
+
+# Files/Folders to be excluded from generated _site folder
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - Gemfile.lock
+
+gems:
+#- jekyll-archives
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jemoji

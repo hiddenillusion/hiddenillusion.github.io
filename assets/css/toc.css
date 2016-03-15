@@ -1,0 +1,194 @@
+/* this hides the {:toc} where it'd be displayed
+  on the actual post */
+/*@media screen and (min-width: 768px){*/
+#markdown-toc {
+    display: none;
+}
+
+/* modified from the lanyon theme (e.g., used the idea of the reverse-layout) */
+
+/* Style and "hide" the toc-sidebar */
+.toc-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -14rem;
+  left: auto;
+  width: 14rem;
+  visibility: hidden;
+  overflow-y: auto;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: .7rem; /* 15px */
+  color: rgba(255,255,255,.6);
+  /*background-color: #202020; */
+  background-color: #205081;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+
+/* toc-sidebar content */
+.toc-sidebar a {
+  font-weight: normal;
+  color: #fff;
+}
+
+.toc-sidebar-title {
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.1);  
+}
+
+.toc-sidebar-item {
+  padding: 1rem;
+  float: left;
+}
+
+.toc-sidebar-item p:last-child {
+  margin-bottom: 0;
+}
+
+/* Sidebar nav */
+.toc-sidebar-nav {
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.toc-sidebar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.toc-sidebar-nav-item.active,
+a.toc-sidebar-nav-item:hover,
+a.toc-sidebar-nav-item:focus {
+  text-decoration: none;
+  background-color: #808080;
+  /*background-color: #626262;*/
+  /*background-color: /*rgba(255,255,255,.1);*/
+  border-color: transparent;
+}
+
+@media (min-width: 48em) {
+  .toc-sidebar-item {
+    padding: 1.5rem;
+  }
+  .toc-sidebar-nav-item {
+    padding-left:  1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+.toc-sidebar-checkbox {
+  position: absolute;
+  opacity: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* Style the `label` that we use to target the `.sidebar-checkbox` */
+.toc-sidebar-toggle {
+  left: auto;
+  right: 1rem;
+  position: absolute;
+  top:  .8rem;
+  display: block;
+  padding: .25rem .75rem;
+  color: #505050;
+  /*color: #205081;*/
+  background-color: #fff;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.toc-sidebar-toggle:before {
+  display: inline-block;
+  width: 1rem;
+  height: .75rem;
+  content: "TOC";
+  /*background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+}
+
+.toc-sidebar-toggle:active,
+#toc-sidebar-checkbox:focus ~ .toc-sidebar-toggle,
+#toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
+  color: #fff;
+  /*background-color: #555;*/
+  background-color: #555;  
+}
+
+.toc-sidebar-toggle:active:before,
+#toc-sidebar-checkbox:focus ~ .toc-sidebar-toggle:before,
+#toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle:before {
+  /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+}
+
+@media (min-width: 30.1em) {
+  .toc-sidebar-toggle {
+    position: fixed;
+  }
+}
+
+@media print {
+  .toc-sidebar-toggle {
+    display: none;
+  }
+}
+
+.toc-wrap {
+  position: relative;
+  width: 100%;
+}
+
+/* Slide effect */
+
+.toc-wrap,
+.toc-sidebar,
+.toc-sidebar-toggle {
+  -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.toc-wrap,
+.toc-sidebar-toggle {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition: transform .3s ease-in-out;
+}
+
+#toc-sidebar-checkbox:checked + .toc-sidebar {
+  z-index: 10;
+  visibility: visible;
+}
+
+#toc-sidebar-checkbox:checked ~ .toc-sidebar,
+#toc-sidebar-checkbox:checked ~ .toc-wrap,
+#toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
+  -webkit-transform: translateX(-14rem);
+      -ms-transform: translateX(-14rem);
+          transform: translateX(-14rem);
+}
+
+/* Overlay sidebar */
+
+.toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-wrap {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
+  box-shadow: 0 0 0 .25rem #fff;
+}
+
+.toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-sidebar {
+  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+}

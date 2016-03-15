@@ -1,0 +1,8 @@
+{% capture words %}
+  {{ page.content | strip_html | number_of_words }}
+{% endcapture %}
+{% unless words contains "-" %}
+  <span><i class="fa fa-clock-o"></i> {{ words | divided_by: 180 | append: " mins to read" }}</span>
+{% else %}
+  <span><i class="fa fa-clock-o"></i> < 1 min to read</span>
+{% endunless %}

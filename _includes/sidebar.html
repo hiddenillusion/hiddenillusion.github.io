@@ -1,0 +1,73 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+      
+      The thoughts of a {{ site.author.description }} 
+
+    <br/>
+    <br/>
+        
+    <div class="sidebar-info small" style="text-align:center">
+      <i class="fa fa-quote-left"></i>
+        {{ site.quote }}
+      <i class="fa fa-quote-right"></i>
+    </div> 
+  </div>  
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
+        href="{{ site.baseurl }}">$ cd ~</a>
+        
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.menu != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item hvr-grow-shadow{% if page.url == node.url %} active{% endif %}"
+              href="{{ node.url }}">{{ node.menu }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </nav>
+
+  <div class="sidebar-item">
+    <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" style="text-decoration:none;" title="Twitter">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+      </span>
+    </a>
+    <a href="https://github.com/{{ site.social.github }}" target="_blank" style="text-decoration:none;" title="Github">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-github-alt fa-stack-1x"></i>
+      </span>
+    </a>
+    <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" style="text-decoration:none;" title="LinkedIn">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x"></i>
+      </span>
+    </a>  
+    <a href="https://speakerdeck.com/{{ site.social.speakerdeck }}" target="_blank" style="text-decoration:none;" title="SpeakerDeck"> 
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-slideshare fa-stack-1x"></i>
+      </span>
+    </a>
+  </div>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>

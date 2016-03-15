@@ -1,0 +1,164 @@
+/*https://raw.githubusercontent.com/astuteo/slickmap/master/slickmap.css*/
+
+/* change if changing col# */
+#primaryNav li {
+  width:25%;
+}
+
+#primaryNav li ul li {
+  width:100% !important;
+}
+
+#primaryNav.col1 li { width:99.9%; }
+#primaryNav.col2 li { width:50.0%; }
+#primaryNav.col3 li { width:33.3%; }
+#primaryNav.col4 li { width:25.0%; }
+#primaryNav.col5 li { width:20.0%; }
+#primaryNav.col6 li { width:16.6%; }
+#primaryNav.col7 li { width:14.2%; }
+#primaryNav.col8 li { width:12.5%; }
+#primaryNav.col9 li { width:11.1%; }
+#primaryNav.col10 li { width:10.0%; }
+
+/* ------------------------------------------------------------
+  General Styles
+------------------------------------------------------------ */
+
+.sitemap {
+  margin: 0 0 40px 0;
+  float: left;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------
+  Site Map Styles
+------------------------------------------------------------ */
+
+/* -------- Top Level --------- */
+
+#primaryNav {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+#primaryNav a{
+  display: block;
+  font-size: 10px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+#primaryNav #home {
+  display: block;
+  float: none;
+  background: #ffffff url('/assets/images/sitemap/L1-left.png') center bottom no-repeat;
+  position: relative;
+  z-index: 2;
+  padding: 0 0 30px 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+#primaryNav li {
+  list-style: none;
+  float: left;
+  background: url('/assets/images/sitemap/L1-center.png') center top no-repeat;
+  padding: 30px 0;
+  margin-top: -30px;
+}
+
+#primaryNav li a {
+  margin: 0 20px 0 0;
+  padding: 10px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: black; 
+  background: #205081 url('/assets/images/sitemap/white-highlight.png') top left repeat-x;
+  border: 2px solid #8f8f8f;
+  border-radius: 5px;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
+  -moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */ 
+}
+#primaryNav li a:hover {
+  /*background-color: #e2f4fd; 8f8f8f dark gray*/
+  background-color: #268bd2;
+  border-color: #205081;
+  text-decoration: none;
+}
+
+#primaryNav li:last-child {
+  background: url('/assets/images/sitemap/L1-right.png') center top no-repeat;
+}
+
+/* -------- Second Level --------- */
+
+#primaryNav li li {
+  width: 100%;
+  clear: left;
+  margin-top: 0;
+  padding: 10px 0 0 0;
+  padding-top: 10;  
+  background: url('/assets/images/sitemap/vertical-line.png') center bottom repeat-y;
+}
+
+#primaryNav li li a {
+  background-color: #c0c0c0;
+  border-color: #205081;
+  text-decoration: none;
+}
+
+#primaryNav li li a:hover {
+  background-color: #268bd2;
+  border-color: #205081;
+  text-decoration: none;
+}
+#primaryNav li li:first-child {
+  padding-top: 30px;
+}
+#primaryNav li li:last-child {
+  background: url('/assets/images/sitemap/vertical-line.png') center bottom repeat-y;
+}
+
+/* -------- Third Level --------- */
+
+#primaryNav li li ul {
+  margin: 10px 0 0 0;
+  width: 100%;
+  float: right;
+  padding: 9px 0 10px 0;
+  padding-bottom: 0;
+  background: #ffffff url('/assets/images/sitemap/L3-ul-top.png') center top no-repeat;
+  list-style: none;
+}
+#primaryNav li li li {
+  background: url('/assets/images/sitemap/L3-center.png') left center no-repeat;
+  padding: 5px 0;
+  list-style: none;
+}
+#primaryNav li li li a {
+  background-color: #fff7aa;
+  border-color: #e3ca4b;
+  font-size: 12px;
+  padding: 5px;
+  width: 80%;
+  float: right;
+  text-decoration: none;
+}
+#primaryNav li li li a:hover {
+  background-color: #268bd2;
+  border-color: #d1b62c;
+  text-decoration: none;
+}
+#primaryNav li li li:first-child {
+  padding: 15px 0 5px 0;
+  background: url('/assets/images/sitemap/L3-li-top.png') left center no-repeat;
+}
+#primaryNav li li li:last-child {
+  background: url('/assets/images/sitemap/L3-bottom.png') left center no-repeat;
+  padding-bottom: 0;
+}
