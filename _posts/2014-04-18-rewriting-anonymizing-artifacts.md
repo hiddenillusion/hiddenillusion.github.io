@@ -4,7 +4,7 @@ title: Rewriting/Anonymizing Artifacts
 date: '2014-04-18T10:46:00.003-04:00'
 author: hiddenillusion
 image_folder: '2014-04-18'
-tags: [pcap, forensics, dfir, memory, python, scapy, volatility]
+tags: [pcap, forensics, dfir, memory forensics, python, scapy, volatility]
 modified_time: '2014-04-18T10:50:40.731-04:00'
 thumbnail: http://1.bp.blogspot.com/-_2DLJprm8Ow/U1CWWjZzGyI/AAAAAAAAAcY/zTv4D9LlyM8/s72-c/connections_before.png
 blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-2075641346506834257

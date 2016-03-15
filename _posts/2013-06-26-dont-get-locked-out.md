@@ -4,7 +4,7 @@ title: Don't Get Locked Out
 date: '2013-06-26T23:40:00.001-04:00'
 author: hiddenillusion
 image_folder: '2013-06-26'
-tags: [Ophcrak, encryption, SafeBoot, Sticky Keys, FDE, Kon-Boot, WinTech]
+tags: [Ophcrack, encryption, SafeBoot, Sticky Keys, FDE, Kon-Boot, WinTech]
 modified_time: '2013-06-26T23:40:27.352-04:00'
 thumbnail: http://3.bp.blogspot.com/-YSdJkEule2w/Ucumg-ayfuI/AAAAAAAAATU/n4Er6Uov4Oc/s72-c/WinTech_code.png
 blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-4323353762897682003

@@ -4,7 +4,7 @@ title: Bruteforcing XOR with YARA
 date: '2014-03-12T14:56:00.001-04:00'
 author: hiddenillusion
 image_folder: '2014-03-12'
-tags: [yara, MACB, XtremeRAT, xor]
+tags: [YARA, MACB, XtremeRAT, XOR]
 modified_time: '2014-03-14T11:45:55.763-04:00'
 thumbnail: http://3.bp.blogspot.com/-OHxpdqhKKaA/UyCP6glsSZI/AAAAAAAAAa8/5P2HXNUUPxw/s72-c/perms.png
 blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-541941005057925460
