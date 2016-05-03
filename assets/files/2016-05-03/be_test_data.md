@@ -1,0 +1,36 @@
+Type | Line Text
+--- | ---
+CCN | American Express: 378282246310005
+CCN | American Express: 371449635398431
+CCN | American Express Corporate: 378734493671000
+CCN | Australian BankCard: 5610591081018250
+CCN | Diners Club: 30569309025904
+CCN | Diners Club: 38520000023237
+CCN | Discover: 6011111111111117
+CCN | Discover: 6011000990139424
+CCN | JCB: 3530111333300000
+CCN | JCB: 3566002020360505
+CCN | MasterCard: 5555555555554444
+CCN | MasterCard: 5105105105105100
+CCN | Visa: 4111111111111111
+CCN | Visa: 4012888888881881
+CCN | 4012888888881880
+CCN | Visa: 4222222222222
+CCN | Dankort (PBS): 76009244561
+CCN | Dankort (PBS): 5019717010103742
+CCN | Switch/Solo (Paymentech): 6331101999990016
+Telephone | A phone number: 202-555-1200
+Telephone | Another phone: (202) 555-1201
+Telephone | And another: 202 555 1202
+Telephone | 202-555-1200
+Telephone | A phone number in England: +44 (0) 77188030123
+PII | DOB: Jan 1, 2014
+PII | DOB: 2014-JAN-02
+PII | DOB: 03 JAN 14
+PII | DOB: 01/04/14
+PII | 01/04/2014
+PII | SSN: 100-20-4011
+PII | Another one is 100-20-4111
+PII | And here is a third: SSN: 100204211
+PII | SSN: 123-85-9999
+PII | Another one is 545-68-7555
