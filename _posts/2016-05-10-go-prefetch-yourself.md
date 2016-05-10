@@ -131,7 +131,6 @@ In this scenario we only have the full path to the file of interest _C:\Users\Us
 **Q. Solution**
 
 We can leverage the [known SCCA hashing code](#tooling-around) and try to determine what the _prefech file_ would have been.
-
 <a class="collapse-toggle tooltip" data-collapse="#show-details{{ counter }}" href="#" style="text-decoration:none;">
     <span class="collapse-text-show" data-title="Click to expand">
 		(show details)
@@ -177,7 +176,6 @@ In the above example, we:
 But - what if HARDDISKVOLUME1 isn't the correct device? ([refer back](#those-ah-has)). In this situation, instead of supplying
 a _device path_ we can use the `--brute_force` option in my [p.o.c script](#tooling-around) and generate various _path hash_ values
 for multiple SCCA hashing algorithms & multiple (known) _device paths_. While the script may not be perfect, the thought process is on track.
-
 <a class="collapse-toggle tooltip" data-collapse="#show-details{{ counter }}" href="#" style="text-decoration:none;">
     <span class="collapse-text-show" data-title="Click to expand">
 		(show details)
@@ -275,9 +273,7 @@ While some _original paths_ are more constant, you should ensure your list conta
 
 ### Disk
 
-#### fls
-
-We can also leverage TSK's `fls` to recusivlely list the full paths to each directory of a given file system.
+One universal option we can use in this situation is leveraging TSK's `fls` to recusivlely list the full paths to each directory of a given file system.
 <a class="collapse-toggle tooltip" data-collapse="#show-details{{ counter }}" href="#" style="text-decoration:none;">
     <span class="collapse-text-show" data-title="Click to expand">
 		(show details)
