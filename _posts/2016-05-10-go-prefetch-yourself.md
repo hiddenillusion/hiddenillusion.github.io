@@ -19,10 +19,10 @@ I've come across various verbiage when reading on this topic so for the remainde
 
 Term | Example
 --- | ---
-_original path_ | C:\Windows\Users\user\AppData\Local\Temp\svchost.exe
+_original path_ | C:\Users\user\AppData\Local\Temp\svchost.exe
 _filename_ | svchost.exe
-_file directory_ | \Windows\Users\user\AppData\Local\Temp\
-_kernel path_ | \DEVICE\HARDDISKVOLUME1\WINDOWS\USERS\USER\APPDATA\LOCAL\TEMP\SVCHOST.EXE
+_file directory_ | \Users\user\AppData\Local\Temp\
+_kernel path_ | \DEVICE\HARDDISKVOLUME1\USERS\USER\APPDATA\LOCAL\TEMP\SVCHOST.EXE
 _device path_ | \DEVICE\\(HARDDISKVOLUME#\|LANMANREDIRECTOR\|HGFS)
 _prefetch file_ | SVCHOST.EXE-41CE8261.pf
 _path hash_ | 41CE8261
