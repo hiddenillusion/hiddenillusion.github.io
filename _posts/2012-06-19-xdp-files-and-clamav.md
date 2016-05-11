@@ -9,9 +9,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-28022695459294400
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/06/xdp-files-and-clamav.html
 ---
 
-* toc-content
-{:toc}
-
 **updated 2012-08-20** - added two new signatures
 
 # Background

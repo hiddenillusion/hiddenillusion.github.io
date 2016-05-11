@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-20756413465068342
 blogger_orig_url: http://hiddenillusion.blogspot.com/2014/04/rewritinganonymizing-artifacts.html
 ---
 
-* toc-content
-{:toc}
-
 # Situation
 
 Have you ever had the need to anonymize or rewrite some data in an artifact for a blog post, paper, presentation, interview etc.? What were the artifacts, what were the requirements and how did you go about tackling the situation at hand? I’ve had to do this a few times in the past but my most recent use case had both a new artifact (memory dump) as well as additional requirements for the other artifact (PCAP) that I hadn’t previously encountered.

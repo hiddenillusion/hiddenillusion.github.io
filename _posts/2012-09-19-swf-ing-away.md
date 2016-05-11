@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-47403418538826122
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/09/swf-ing-away.html
 ---
 
-* toc-content
-{:toc}
-
 > **Disclaimer** - the intent of this post is for educational and research purposes only.  Don't be lame and use it to steal copyrighted material.
 
 There's been quite a bit of chatter lately with the [recent discovery](http://eromang.zataz.com/2012/09/16/zero-day-season-is-really-not-over-yet/) of the latest [IE 0-day](https://technet.microsoft.com/en-us/security/advisory/2757760).  While reading through one of the other researchers [posts](http://labs.alienvault.com/labs/index.php/2012/the-connection-between-the-plugx-chinese-gang-and-the-latest-internet-explorer-zeroday/) I decided to take a deeper look into some of the files being used in these reported attacks.  The issue that some might be experiencing while trying to analyze the related flash files, as did I, is that they're **encrypted with [doSWF](http://www.doswf.com/)** and therefore take a little more effort in order to get down to what we care about.  A quick search about how to go about decrypting this particular type of encryption led me two good articles ([one](http://scrammed.blogspot.com/2012/05/look-at-object-confusion-vulnerability.html), [two](https://blog.avast.com/2011/09/09/breaking-through-flash-obfuscation/)).  

@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-27787149677641344
 blogger_orig_url: http://hiddenillusion.blogspot.com/2013/01/nomorexor.html
 ---
 
-* toc-content
-{:toc}
-
 > Update 04/09/2013 - **NoMoreXOR is now included in REMnux as of version 4.**
 
 Have you ever been faced with a file that was [XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)'ed with a 256 byte key? While it may not be the most common length for an XOR key, it's still something that has popped up enough over the last few months ([1](http://labs.alienvault.com/labs/index.php/2012/cve-2012-1535-adobe-flash-being-exploited-in-the-wild/), [2](http://blog.accuvantlabs.com/blog/emiles/analyzing-cve-2012-0158), [3](https://www.securelist.com/en/blog/774/A_Targeted_Attack_Against_The_Syrian_Ministry_of_Foreign_Affairs), [4](http://contagiodump.blogspot.com/2012/06/90-cve-2012-0158-documents-for-testing.html)) to make it on my to-do list.  If you take a look at first the two links mentioned above you'll see they both include some in-house tool(s) which do some magic and provide you with the XOR key.  Even though they both state that at some point their tools will be released, that doesn't help me now.

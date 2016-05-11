@@ -9,9 +9,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-69774266865192857
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/01/retrieve-total-number-of-connections-to.html
 ---
 
-* toc-content
-{:toc}
-
 # Goal
 
 Go through every log file for a day, print the server/IP that clients were communicating with and give a total sum for the number of times each server/IP was communicated with.

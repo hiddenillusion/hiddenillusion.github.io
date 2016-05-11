@@ -8,9 +8,6 @@ tags: [prefetch, execution, indxparse, jinja, python, tsk, fls, volatility, memo
 
 {% assign counter=0 %}
 
-* toc-content
-{:toc}
-
 # Overview
 
 If you're reading this then I'm sure you're aware of what _Prefetch_ on a Windows system is so I won't bore you with a recap. Instead, I'd rather touch upon a different view of Prefetch and how I've leveraged it in non-traditional ways during my forensicating. Occasionally I've come across a few situations where I needed both sides of a Prefetch file. By two sides, I'm referring to:

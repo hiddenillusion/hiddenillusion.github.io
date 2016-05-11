@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-18325920537957896
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/07/is-that-infection-or-false-positive.html
 ---
 
-* toc-content
-{:toc}
-
 Have you been in a situation where there's a file being flagged by A/V and you don't really agree? I was in a situation where I was noticing files being flagged as a generic variant of ZeuS and while at first you can't necessarily disregard the alert -no matter your feelings on the A/V- you can do a little digging and try to determine what's actually going on.  This  is not something you are or should do for every infection you come across, but rather a more practical use is to understand why certain files may be mis-classified when they are in fact benign.
 
 The particular A/V vendor that was reporting the alerts was classifying them as _W32/Zbot.gen.*_ ... the "gen.b" was most noticeable.  I grabbed one of the files in question and started to poke around.  Some of the usual first steps led no where - internal hash lookups, external hash look-ups (Cymru, VT etc.), pescanner had a generic YARA hit for banker based on a string which looked all too common, dynamic analysis didn't show anything... so I started to extend some of my initial steps.

@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-54194100505792546
 blogger_orig_url: http://hiddenillusion.blogspot.com/2014/03/bruteforcing-xor-with-yara.html
 ---
 
-* toc-content
-{:toc}
-
 # Background
 
 In a previous [post](http://hiddenillusion.blogspot.com/2013/01/nomorexor.html) I looked at coming up with a process for determining XOR keys that were 256 bytes.  I've received and have read some great feedback/posts regarding the tool and even though I wrote it in such a way to try and still possibly see patterns/repetitive bytes for smaller XOR keys, that wasn't its purpose.  There are plenty of other tools out there to try and assist oneself when dealing with XOR'ed files, however, recently a [co-worker](https://twitter.com/Tekdefense) and I were left unsuccessful after exhausting those resources.

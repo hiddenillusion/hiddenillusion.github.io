@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-87354401689317122
 blogger_orig_url: http://hiddenillusion.blogspot.com/2013/12/analyzepdf-bringing-dirt-up-to-surface.html
 ---
 
-* toc-content
-{:toc}
-
 # What is that thing they call a PDF?
 
 The Portable Document Format (PDF) is an old format ... it was created by Adobe back in 1993 as an open standard but wasn't officially released  as an open standard (SIO 32000-1) until 2008 - right [@nullandnull](http://hooked-on-mnemonics.blogspot.com/2012/05/intro-to-malicious-document-analysis.html)? I can't take credit for the nickname that I call it today, Payload  Delivery Format, but I think it's clever and applicable enough to mention. I did a lot of painful reading through the PDF [specifications](http://www.adobe.com/devnet/pdf/pdf_reference.html) in the past and if you happen to do the same I'm sure you'll also have a lot of these types of thoughts:

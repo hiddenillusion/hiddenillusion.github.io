@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-43233537628976820
 blogger_orig_url: http://hiddenillusion.blogspot.com/2013/06/dont-get-locked-out.html
 ---
 
-* toc-content
-{:toc}
-
 # Scenario
 
 The system had Full Disk Encryption (FDE) via McAfee SafeBoot and I had recently changed my Windows password but apparently fat fingered it from what I thought I had changed it to which left me unable to authenticate to Windows.  The OS and SafeBoot were working properly and I had valid credentials to login to the SafeBoot file system (SBFS)...this is because it used separate credentials from my Windows credentials.

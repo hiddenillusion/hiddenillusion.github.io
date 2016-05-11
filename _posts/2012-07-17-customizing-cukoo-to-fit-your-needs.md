@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-30142011991583075
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/07/customizing-cukoo-to-fit-your-needs.html
 ---
 
-* toc-content
-{:toc}
-
 With the talk of the .4 release of cuckoo to be publicly released shortly I figured I should get this post out as some of the things I talk about here are said to be addressed and included in that release.  If you don't want to wait for that release or something I touch on here isn't included in that release then hopefully the information below will be of use to you.
 
 In full disclosure, I'm not a python guru so if you see something that could have been done an easier way or something turns out not to be working for you please let me know...I found out the hard way python is strict on spacing.  Throughout my testing it all seemed to work fine for me but there may be some scenario I didn't test or think of.

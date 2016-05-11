@@ -11,8 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-42214382034671885
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/06/getting-what-you-want-out-of-pdf-with.html
 ---
 
-* toc-content
-{:toc}
 
 I was talking recently with a [coworker](https://twitter.com/sk3tchymoos3) who brought up the fact that she was having a problem extracting something from a PDF.  It was cheating a little bit since we knew there was definitely something there to extract and look for because of another analysis previously posted.  When I read a post about someone doing an analysis I always like when they show a little more details about how they got to the end result and not just showing the end result - and this was a case of the latter.  As a result of this little exercise I thought I would write a quick post on how to do the same type of thing with the CVE-2010-0188 shown [here](http://bugix-security.blogspot.com/2010/03/cve-2010-0188-adobe-pdf-libtiff-remote.html).
 

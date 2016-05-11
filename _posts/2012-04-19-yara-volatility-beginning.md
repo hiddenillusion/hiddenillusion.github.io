@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-16465348413524845
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/04/yara-volatility-beginning.html
 ---
 
-* toc-content
-{:toc}
-
 YARA - the sleeping giant.  There's been mention of it over the last few years but as far as adoption - I think it's still lacking in the tool set of many analysts. I personally like to leverage YARA on its own, within pescanner and most definitely within volatility's malfind.  I've recently encountered two obstacles:
 
 1. Converting ClamAV to YARA signatures

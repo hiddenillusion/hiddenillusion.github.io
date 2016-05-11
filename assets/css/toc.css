@@ -1,22 +1,31 @@
-/* this hides the {:toc} where it'd be displayed
-  on the actual post */
-/*@media screen and (min-width: 768px){*/
-#markdown-toc {
-    display: none;
+
+.toc-wrap {
+  position: relative;
+  width: 100%;
 }
 
-/* modified from the lanyon theme (e.g., used the idea of the reverse-layout) */
+.toc-container {
+  max-width: 28rem;
+}
+@media (min-width: 38em) {
+  .toc-container {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56em) {
+  .toc-container {
+    max-width: 38rem;
+  }
+}
 
-/* Style and "hide" the toc-sidebar */
 .toc-sidebar {
   position: fixed;
   top: 0;
   bottom: 0;
-  right: -14rem;
   left: auto;
+  right: -14rem;
   width: 14rem;
   visibility: hidden;
-  overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .7rem; /* 15px */
   color: rgba(255,255,255,.6);
@@ -24,24 +33,22 @@
   background-color: #205081;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
+  overflow-y: auto;
 }
 
-/* toc-sidebar content */
-.toc-sidebar a {
+/* Sidebar content */
+.toc-sidebar a {   
   font-weight: normal;
   color: #fff;
 }
 
-.toc-sidebar-title {
-  text-align: center;
-  font-size: 1rem;
-  color: #fff;
-  border-bottom: 1px solid rgba(255,255,255,.1);  
+.toc-sidebar-item {
+  margin-top: 60px;
+  /*padding: .75rem;*/
 }
 
-.toc-sidebar-item {
-  padding: 1rem;
-  float: left;
+.toc-sidebar-item ul li {
+  margin-left: 5px;
 }
 
 .toc-sidebar-item p:last-child {
@@ -55,9 +62,15 @@
 
 .toc-sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
+  /*padding: .5rem 1rem;*/
   border-top: 1px solid rgba(255,255,255,.1);
+  margin-top: 60px;
 }
+
+.toc-sidebar-nav-item ul li {
+  padding-left: 0px;
+}
+
 
 .toc-sidebar-nav-item.active,
 a.toc-sidebar-nav-item:hover,
@@ -79,7 +92,7 @@ a.toc-sidebar-nav-item:focus {
   }
 }
 
-/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+/* Hide the sidebar checkbox that we toggle with `.toc-sidebar-toggle` */
 .toc-sidebar-checkbox {
   position: absolute;
   opacity: 0;
@@ -88,12 +101,12 @@ a.toc-sidebar-nav-item:focus {
           user-select: none;
 }
 
-/* Style the `label` that we use to target the `.sidebar-checkbox` */
+/* Style the `label` that we use to target the `.toc-sidebar-checkbox` */
 .toc-sidebar-toggle {
-  left: auto;
-  right: 1rem;
   position: absolute;
   top:  .8rem;
+  left: auto;
+  right: 1rem;
   display: block;
   padding: .25rem .75rem;
   color: #505050;
@@ -105,13 +118,13 @@ a.toc-sidebar-nav-item:focus {
 
 .toc-sidebar-toggle:before {
   display: inline-block;
-  width: 1rem;
+  width: 2rem;
   height: .75rem;
   content: "TOC";
-  /*background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
-  /*background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
-  /*background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
-  /*background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
+  /*background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);*/
 }
 
 .toc-sidebar-toggle:active,
@@ -119,16 +132,16 @@ a.toc-sidebar-nav-item:focus {
 #toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
   color: #fff;
   /*background-color: #555;*/
-  background-color: #555;  
+  background-color: #555;
 }
 
 .toc-sidebar-toggle:active:before,
 #toc-sidebar-checkbox:focus ~ .toc-sidebar-toggle:before,
 #toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle:before {
-  /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+  /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
 }
 
 @media (min-width: 30.1em) {
@@ -142,13 +155,6 @@ a.toc-sidebar-nav-item:focus {
     display: none;
   }
 }
-
-.toc-wrap {
-  position: relative;
-  width: 100%;
-}
-
-/* Slide effect */
 
 .toc-wrap,
 .toc-sidebar,
@@ -165,7 +171,7 @@ a.toc-sidebar-nav-item:focus {
 }
 
 #toc-sidebar-checkbox:checked + .toc-sidebar {
-  z-index: 10;
+  /*z-index: 10;*/
   visibility: visible;
 }
 
@@ -177,18 +183,37 @@ a.toc-sidebar-nav-item:focus {
           transform: translateX(-14rem);
 }
 
-/* Overlay sidebar */
+/*
+ * Overlay sidebar
+ *
+ * Make the sidebar content overlay the viewport content instead of pushing it
+ * aside when toggled.
+ */
 
+.toc-sidebar-checkbox:checked ~ .toc-wrap {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+.toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
+  box-shadow: 0 0 0 .25rem #fff;
+}
+
+.toc-sidebar-checkbox:checked ~ .toc-sidebar {
+  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/*
 .toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-wrap {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
-
 .toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-sidebar-toggle {
   box-shadow: 0 0 0 .25rem #fff;
 }
 
 .toc-sidebar-overlay #toc-sidebar-checkbox:checked ~ .toc-sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+*/

@@ -2,32 +2,46 @@
 layout: default
 ---
 
-<!-- Toggleable TOC sidebar -->
+{% include toc.html %}
+
+<!-- builds TOC of a post -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
+
+<!-- TOC sidebar toggle -->
 <label for="toc-sidebar-checkbox" class="toc-sidebar-toggle"></label>
-<input type="checkbox" class="toc-sidebar-checkbox" id="toc-sidebar-checkbox">
-<div class="toc-sidebar" id="toc-sidebar">
-  <div class="toc-sidebar-title">
-    Post Layout
-  </div>
+<script>
+  (function(document) {
+    var toggle = document.querySelector('.toc-sidebar-toggle');
+    var sidebar = document.querySelector('#toc-sidebar');
+    var checkbox = document.querySelector('#toc-sidebar-checkbox');
 
-  <div class="toc-sidebar-item">
-    <div id="toc-content">
-        <div class="toc-content-text"></div>
-    </div>
-  </div>
-</div>
+    document.addEventListener('click', function(e) {
+      var target = e.target;
 
+      if(!checkbox.checked ||
+         sidebar.contains(target) ||
+         (target === checkbox || target === toggle)) return;
+
+      checkbox.checked = false;
+    }, false);
+  })(document);
+</script>
+    
 <!-- Post content -->
 <div class="post">
   <div class="post-title"><h1>{{ page.title }}</h1></div>
-  <span class="post-info"><i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%-d"  }} • {% include estimated_read_time.html %} • {{ page.content | strip_html | number_of_words | append: " words"}}</span>
+  <span class="post-info"><i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%-d"  }} • {% include estimated_read_time.html %} • {{ page.content | number_of_words | append: " words"}}</span>
 
-  <br/>
-  <br/>
-  
+  </br>
+  </br>
   {{ content }}
 
-{% if page.tags.size > 0 %}
+  {% if page.tags.size > 0 %}
+
   <div class="tags">
     <h2>Post Tags</h2>
     <small>

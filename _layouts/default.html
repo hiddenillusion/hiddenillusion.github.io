@@ -3,10 +3,10 @@
 
   {% include head.html %}
 
+
   <!-- <body class="theme-base-0d"> -->
   <body>
     {% include sidebar.html %}
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
       <div class="masthead">
@@ -56,29 +56,5 @@
         });
       });
     </script>
-
-  <!-- builds TOC of a post -->
-  <script>
-    buildTOC();
-  </script>
-
-  <!-- insert toc-sidebar toggle -->
-  <script>
-    (function(document) {
-      var toc_toggle = document.querySelector('.toc-sidebar-toggle');
-      var toc_sidebar = document.querySelector('#toc-sidebar');
-      var toc_checkbox = document.querySelector('#toc-sidebar-checkbox');
-
-      document.addEventListener('click', function(t) {
-        var toc_target = t.target;
-
-        if(!toc_checkbox.checked ||
-           toc_sidebar.contains(toc_target) ||
-           (toc_target === toc_checkbox || toc_target === toc_toggle)) return;
-
-        toc_checkbox.checked = false;
-      }, false);
-    })(document);
-  </script>
   </body>
 </html>

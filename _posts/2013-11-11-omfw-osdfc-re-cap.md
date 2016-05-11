@@ -9,9 +9,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-74360335693611164
 blogger_orig_url: http://hiddenillusion.blogspot.com/2013/11/omfw-osdfc-re-cap.html
 ---
 
-* toc-content
-{:toc}
-
 # General Notes
 
 I attended both the Open Memory Forensics Workshop (OMFW) and the Open Source Digital Forensics Conference (OSDFC) for the first time last year and just like I said last year - they're both set as recurring events on my calendar now.  I was told that my tweets and recap post of last years activities was helpful to those who couldn't attend so I figured I'd write up something again since I took notes anyway.  I really like that both conferences have ~30-40 minute talks so you're not stuck listening to anyone ramble about anything and you also get the benefit of getting more presentations.  If you haven't been able to make either of these yet or are still debating if you should attend - go for it.  They're both 1 day (well, if you just go to the presentations) each and I have yet to be let down with the overall quality of presentations and better yet, the networking that you're able to do at them.

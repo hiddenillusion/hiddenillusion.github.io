@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-76037992648601010
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/03/making-volatility-work-for-you.html
 ---
 
-* toc-content
-{:toc}
-
 # Overview
 
 Lately I've been spending some time customizing Volatility to meet some of the needs I was facing.  What were they?  I needed an automated way to leverage Volatility to perform an analysis and while doing so I noticed there were some small changes to some of its files that I wanted to make so certain information was displayed differently.  The latter is what I'm going to quickly touch on in this post as others may find it beneficial for their own needs and to me personally, just made sense to display the output as I'll show.

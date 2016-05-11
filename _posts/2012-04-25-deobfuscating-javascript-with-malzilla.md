@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-58473748364751984
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/04/deobfuscating-javascript-with-malzilla.html
 ---
 
-* toc-content
-{:toc}
-
 I was asked a question a little while ago from a fellow forensicator about deobfuscating some JS that he came across.  The JS didn't take long to reverse but I suspect there are others out there that would benefit from a quick post regarding another way to go about this task.  While there's **jsunpack**, **js-beautify** etc. I chose to run it through **Malzilla** for this example.
 
 The structure of the JS was noticeably familiar and turns out to be related to an exploit pack; which is a common source of where a lot of the JS you might come across in the DFIR field results from these days.  These types of kits make it point-and-click easy to not only distribute malware but also make it uber-easy to obfuscate the code on their pages.

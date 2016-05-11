@@ -11,9 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-87078085990471797
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/05/whats-in-your-logs.html
 ---
 
-* toc-content
-{:toc}
-
 I've had this on the back burner for a few months but I'm finally getting around to writing up a post about it.  I re-tested the scenarios listed below with [log2timeline v0.63](https://github.com/log2timeline/plaso) in [SIFT v2.12](https://digital-forensics.sans.org/community/downloads) and verified it's still applicable.
 
 # The Scenario

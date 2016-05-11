@@ -9,10 +9,8 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-33423836917302623
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/02/what-to-use-for-analysis-on-per-file.html
 ---
 
-* toc-content
-{:toc}
-
 # Overview
+
 As you are all aware of, there are a ton of different tools out there and the list just keeps growing.  A coworker of mine is working on some malware automation and often times we needed to determine which tools we wanted to run against said files.  This outcome varies based on the type of file it can be identified and classified as of course but still... what do you use?  I know I can't remember everything I come across everyday or sometimes have a brain fart and forget what tool can be used in what situation or on what type of file so I started to create a spreadsheet that would help aid in this type of debacle.  The list started to take on a life of its own and as you can imagine the scope can be very large depending on what your goals are and how you want to store this information.
 
 This list could very well be made into a DB and represented/maintained better but for quick answers on the road this was the best option for me.  I'm posting this up on [Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AkUsWCe2UT8HdE9sa3hCX2dVb1ZqbHNrVWVUUl9kaXc) where I will periodically update the list (feel free to give me recommendations to add.  Hopefully it will be of use for others as I know it's come in use for me and some others already.  If you need to modify it for your own means then please do - just download a local copy and have at it.  Don't send me feedback that there's a row incomplete, I'm aware.

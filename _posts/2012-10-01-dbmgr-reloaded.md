@@ -11,8 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-29287243678980113
 blogger_orig_url: http://hiddenillusion.blogspot.com/2012/10/dbmgr-reloaded.html
 ---
 
-* toc-content
-{:toc}
 
 I recently had a discussion with another [coworker](https://twitter.com/ChristiaanBeek) regarding scenarios where you can try and determine if something malicious is or was on a system based on mutexes.
 
