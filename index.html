@@ -32,8 +32,8 @@ title: Home
               </span>
           </section>  
           <section class="index-post-excerpt">
-            <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-            <!-- <p>{{ post.excerpt }}</p> -->
+            <!-- {{ post.excerpt | strip_html | truncatewords:50 }} -->
+              {{ post.content | strip_html | markdownify | truncatewords:50 }}
           </section> 
           <a href="{{ site.url }}/{{ post.url }}">
             Continue reading »
