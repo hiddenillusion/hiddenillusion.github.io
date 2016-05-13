@@ -100,7 +100,7 @@ When you only have the _path hash_, the ability to map the _path hash_ to an _or
 1. the file resided at the _original path_ at one point in time
 1. indicates the file at _original path_ executed on the system
 
-When you can determine where the _prefetch file_ was originally location you:
+When you can determine where the _prefetch file_ was originally located you:
 
 1. can determine what device the application was actually located on
 1. have the ability to map the _original file_ to having contact with said system
