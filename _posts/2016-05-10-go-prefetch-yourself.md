@@ -432,7 +432,7 @@ This may be due to:
 
 Regardless, we can overcome both by leveraging volatility's [`filescan`](https://github.com/volatilityfoundation/volatility/wiki/Command%20Reference#filescan).
 
-While having the basic prefetch details are useful, having the _original path_ is also important (if this is news to you, re-read everything). I didn't see my [issue](https://github.com/superponible/volatility-plugins/issues/3) getting any love so I created a [PR](https://github.com/superponible/volatility-plugins/pull/4) instead. 
+While having the basic prefetch details are useful, having the _original path_ is also important (if this is news to you, re-read everything). I ~~didn't see my [issue](https://github.com/superponible/volatility-plugins/issues/3) getting any love so I~~ created a [PR](https://github.com/superponible/volatility-plugins/pull/4) instead. 
 <a class="collapse-toggle tooltip" data-collapse="#show-details{{ counter }}" href="#" style="text-decoration:none;">
     <span class="collapse-text-show" data-title="Click to expand">
 		(show details)
