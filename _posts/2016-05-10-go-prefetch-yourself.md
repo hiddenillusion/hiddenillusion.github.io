@@ -87,7 +87,7 @@ Code/Resource | Notes
 [`list_mft.py`](https://github.com/williballenthin/INDXParse) | Python script that parses a $MFT and provides entry details (file paths of files on said system in this case) + supports _jinja2_ templating
 [`prefetchparser`](https://github.com/superponible/volatility-plugins/pull/4) | `volatility` plugin that scans a memory dump for Prefetch files and provides the _prefetch file_/_path hash_/_original path_
 [`generate_prefetch_hashes.py`](https://github.com/hiddenillusion/IR/blob/master/Research/generate_prefetch_hashes.py) | Script I wrote to combine above mentioned hashing algorithms, allows one to supply filepaths a few ways & has the ability to try and brute force a filepath for you.
-[`volatility`](https://github.com/volatilityfoundation/volatility) | Because it rock the memory out of you
+[`volatility`](https://github.com/volatilityfoundation/volatility) | Because it will rock the memory out of you
 [Memory dumps from Jackcr's DFIR challenge](https://github.com/volatilityfoundation/volatility/wiki/Memory-Samples) | Memory dumps used for testing + parsed $MFT's to validate memory findings & SCCA hash calculations
 [`jq`](https://stedolan.github.io/jq/) | will be your new besty for dealing with JSON data (_but it might take some getting used_)
 
