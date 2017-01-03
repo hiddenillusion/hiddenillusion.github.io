@@ -62,8 +62,14 @@ employment:
       url: https://www.fireeye.com
       position: Sr. Incident Response Consultant
       started: 2013
-      duration: April 2013 - Present
-
+      duration: April 2013 - December 2016
+    - work7:
+      company: FireEye
+      url: https://www.fireeye.com
+      position: Principal Incident Response Consultant
+      started: 2016
+      duration: December 2016 - Present
+      
 presentations:
     - presentation1:
       year: 2012
