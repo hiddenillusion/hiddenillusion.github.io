@@ -29,6 +29,7 @@ A hierarchical breakdown of this site can be seen below.
         {% for tag in tags_list %}
           <li><a href="{{ site.url }}/tag/index.html#{{ tag[0] }}">{{ tag[0] }}</a></li>
         {% endfor %}
-      </ul>       
+      </ul>
+     </li>
   </ul>
 </div>
