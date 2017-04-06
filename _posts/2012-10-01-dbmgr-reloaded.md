@@ -4,7 +4,7 @@ title: dbmgr reloaded
 date: '2012-10-01T21:59:00.000-04:00'
 author: hiddenillusion
 image_folder: '2012-10-01'
-tags: [ThreatExport, dbmgr, avsubmit, mutex, mutant, MACB]
+tags: [ThreatExpert, dbmgr, avsubmit, mutex, mutant, MACB]
 modified_time: '2012-10-01T21:59:23.055-04:00'
 thumbnail: http://4.bp.blogspot.com/-MMxfCGCE1ZY/UGpEtfuXtTI/AAAAAAAAAP4/6PHdVXTYOI8/s72-c/page+loop.png
 blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-2928724367898011349
@@ -41,7 +41,7 @@ def findme(page,query):
      import httplib
      count = 1
      while (count <= page):
-         conn = httplib.HTTPConnection('www.threatexpert.com')	
+         conn = httplib.HTTPConnection('www.threatexpert.com')
          conn.request('GET', '/reports.aspx?page=%d&find=%s&sl=1' % (count,query))
          response = conn.getresponse().read()
          lines = response.split('\n')
@@ -50,7 +50,7 @@ def findme(page,query):
                  addtodb( line[29:61] )
              elif "No records found." in line:
                  print "[+] No further results to process."
-                 sys.exit()	
+                 sys.exit()
          count += 1				
          continue
 ```

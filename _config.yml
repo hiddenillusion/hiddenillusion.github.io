@@ -4,8 +4,8 @@ permalink:           pretty #"/blog/:year/:month/:day/:title"
 # Site Settings
 title:               ":: hiddenillusion ::"
 tagline:             "... look beyond"
-quote:				       "My crime is being curious"       
-url:                 "https://hiddenillusion.github.io" #http://127.0.0.1:4000
+quote:				       "My crime is being curious"
+url:                 "https://hiddenillusion.github.io"
 baseurl:             "/"
 paginate:            5
 #paginate_path:		"/blog/page:num"
@@ -19,7 +19,7 @@ author:
   description:       "geek, forensicator, researcher & traveler"
 
 # Social Information
-social: 
+social:
   github: hiddenillusion
   twitter: hiddenillusion
   linkedin: glennpedwardsjr
@@ -40,7 +40,7 @@ kramdown:
 #    tag: tag-archive-layout
 
 # Files/Folders to be excluded from generated _site folder
-exclude: 
+exclude:
   - CNAME
   - Gemfile
   - Rakefile

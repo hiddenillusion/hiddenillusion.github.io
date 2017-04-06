@@ -10,15 +10,14 @@ permalink: /archive/
 > You can also browse by <a href="{{ site.url }}/tag/">tags</a>
 
 <div>
+  <ul>
   {% for post in site.posts %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% unless forloop.first %}
-      <ul>
       {% endunless %}
       <h5>{{ currentyear }}</h5>
-      </ul>
-      {% capture year %}{{currentyear}}{% endcapture %} 
+      {% capture year %}{{currentyear}}{% endcapture %}
     {% endif %}
     <ul>
       <div>
@@ -42,5 +41,6 @@ permalink: /archive/
         </p>
       </div>
     </ul>
-{% endfor %}
+    {% endfor %}
+  </ul>
 </div>
