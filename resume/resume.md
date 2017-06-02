@@ -69,7 +69,7 @@ employment:
       position: Principal Incident Response Consultant
       started: 2016
       duration: December 2016 - Present
-      
+
 presentations:
     - presentation1:
       year: 2012
@@ -116,7 +116,7 @@ certifications:
 
 training:
     - class1:
-      name: Windows Malware and Memory Forensics Training 
+      name: Windows Malware and Memory Forensics Training
       organization: The Volatility Project
     - class2:
       name: EnCase's Computer Forensics II, Advanced Internet Forensics and Macintosh-Linux Examinations
@@ -131,9 +131,7 @@ training:
       name: Computer Forensics Training
       organization: InfoSec Institute
 
-buzzwords: [Volatility, Plaso/Log2timeline, X-ways, The Sleuth Kit, IDA Pro, Mac, Linux, Windows,
-            python, scripting, forensics, incident response, dfir, malware, reverse engineering,
-            REMnux, SIFT, open source, GitHub]
+buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timeline/Plaso, Timesketch, EnCase, REMnux, YARA, Windows, Mac, Linux, python, bash, scripting, forensics, incident response, dfir, malware, reverse engineering, open source, GitHub]
 ---
 
 <div class="resume-header">
@@ -145,7 +143,7 @@ buzzwords: [Volatility, Plaso/Log2timeline, X-ways, The Sleuth Kit, IDA Pro, Mac
             <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
                  <p>
                     <small class="text-muted">
-                        <i class="fa fa-twitter fa-fw"></i> 
+                        <i class="fa fa-twitter fa-fw"></i>
                         <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" title="Twitter">  @{{ site.social.twitter }}</a>
                     </small>
                     <small class="text-muted">
@@ -199,7 +197,7 @@ buzzwords: [Volatility, Plaso/Log2timeline, X-ways, The Sleuth Kit, IDA Pro, Mac
                         </div>
                     </li>
                 {% endfor %}
-            </ul> 
+            </ul>
             <h3 class="resume-title with-icon"><span class="fa fa-building-o cat-title"></span>Experience</h3>
             <ul class="resume-timeline">
                 {% assign sorted = (page.employment | sort: 'started') | reverse %}
@@ -209,7 +207,7 @@ buzzwords: [Volatility, Plaso/Log2timeline, X-ways, The Sleuth Kit, IDA Pro, Mac
                         <div class="resume-timeline-panel grid-block">
                             <div class="resume-timeline-heading">
                                 <h3 class="resume-timeline-title"><a href="{{ work.url }}">{{ work.company }}</a></h3>
-                                    
+
                                     {{ work.position }}
                                 <p>
                                     <small class="text-muted">
