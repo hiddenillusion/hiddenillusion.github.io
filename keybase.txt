@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/hiddenillusion
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hiddenillusion.github.io
+  * I am hiddenillusion (https://keybase.io/hiddenillusion) on keybase.
+  * I have a public key ASBDr5lF1rd1Ps8NbvLezlVDTljkbtFSEFcw3fgTeYU6iQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012043af9945d6b7753ecf0d6ef2dece55434e58e46ed152105730ddf81379853a890a",
+      "host": "keybase.io",
+      "kid": "012043af9945d6b7753ecf0d6ef2dece55434e58e46ed152105730ddf81379853a890a",
+      "uid": "788a9c41596b0746a3b700eb587dd700",
+      "username": "hiddenillusion"
+    },
+    "merkle_root": {
+      "ctime": 1505995931,
+      "hash": "1431caca43c85f90dc4d5d9ec60788949dcea8b625c08a4fb7b7cb4487f26475f4a402eecff7eecc83bc21cca8c39177dfe3dda200fc287ff4f00f44c22a621b",
+      "hash_meta": "4125bdf285d3853769ee7779533fb4216f9dcb8d7185201d2b3b4cf940da7a14",
+      "seqno": 1436811
+    },
+    "service": {
+      "hostname": "hiddenillusion.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505995943,
+  "expire_in": 504576000,
+  "prev": "ff7d24d3ee5d4e2a3ab7122242d01a922224481effd98920fa9f4f9028a2c31d",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQ6+ZRda3dT7PDW7y3s5VQ05Y5G7RUhBXMN34E3mFOokKp3BheWxvYWTFA1Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNDNhZjk5NDVkNmI3NzUzZWNmMGQ2ZWYyZGVjZTU1NDM0ZTU4ZTQ2ZWQxNTIxMDU3MzBkZGY4MTM3OTg1M2E4OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDNhZjk5NDVkNmI3NzUzZWNmMGQ2ZWYyZGVjZTU1NDM0ZTU4ZTQ2ZWQxNTIxMDU3MzBkZGY4MTM3OTg1M2E4OTBhIiwidWlkIjoiNzg4YTljNDE1OTZiMDc0NmEzYjcwMGViNTg3ZGQ3MDAiLCJ1c2VybmFtZSI6ImhpZGRlbmlsbHVzaW9uIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA1OTk1OTMxLCJoYXNoIjoiMTQzMWNhY2E0M2M4NWY5MGRjNGQ1ZDllYzYwNzg4OTQ5ZGNlYThiNjI1YzA4YTRmYjdiN2NiNDQ4N2YyNjQ3NWY0YTQwMmVlY2ZmN2VlY2M4M2JjMjFjY2E4YzM5MTc3ZGZlM2RkYTIwMGZjMjg3ZmY0ZjAwZjQ0YzIyYTYyMWIiLCJoYXNoX21ldGEiOiI0MTI1YmRmMjg1ZDM4NTM3NjllZTc3Nzk1MzNmYjQyMTZmOWRjYjhkNzE4NTIwMWQyYjNiNGNmOTQwZGE3YTE0Iiwic2Vxbm8iOjE0MzY4MTF9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaGlkZGVuaWxsdXNpb24uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzAifSwiY3RpbWUiOjE1MDU5OTU5NDMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZmY3ZDI0ZDNlZTVkNGUyYTNhYjcxMjIyNDJkMDFhOTIyMjI0NDgxZWZmZDk4OTIwZmE5ZjRmOTAyOGEyYzMxZCIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQL2iJYoaNJ1g+r5ARCf3QT8bT9G9HrxiuECmfO3j2kQ14zbC8FXRBuig2R4AnCP5Ugy/yuNH+a+6wOFBV1+jjAyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBT4H5J7CYUsrLj1jakheJQwhOvrT1YEEC8Zg8DycLwx6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hiddenillusion
+
+==================================================================
