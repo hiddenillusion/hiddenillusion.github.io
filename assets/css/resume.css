@@ -96,7 +96,7 @@ hr {
     right: 0;
     width: 0;
     height: 0;
-    border-color: transparent #ddd #ddd transparent;
+    border-color: transparent;
     border-style: solid;
     border-width: 21px;
 }
@@ -109,7 +109,7 @@ hr {
     right: 0;
     width: 0;
     height: 0;
-    border-color: transparent #ebebeb #ebebeb transparent;
+    border-color: transparent;
     border-style: solid;
     border-width: 20px;
 }
@@ -128,7 +128,7 @@ hr {
 .resume-timeline {
     list-style: none;
     padding: 20px 0 20px;
-    position: relative;  
+    position: relative;
 }
 
 /* this relates to the line that holds a timeline entrys year */
@@ -168,7 +168,7 @@ hr {
     padding: 20px;
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);    
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
 /* handles the arrow pointing to the timeline entry's year */
@@ -194,7 +194,7 @@ hr {
     border-left: 14px solid #fff;
     border-right: 0 solid #fff;
     border-bottom: 14px solid transparent;
-    content: " ";  
+    content: " ";
 }
 
 .resume-timeline > li > .resume-timeline-badge {
@@ -215,7 +215,7 @@ hr {
     border-bottom-left-radius: 50%;
 }
 
-.resume-timeline > li.resume-timeline-inverted > .resume-timeline-panel {    
+.resume-timeline > li.resume-timeline-inverted > .resume-timeline-panel {
 }
 
 /* relates to arrow pointing to timeline entrys year */
