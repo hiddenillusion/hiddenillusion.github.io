@@ -4,17 +4,17 @@ permalink:           pretty #"/blog/:year/:month/:day/:title"
 # Site Settings
 title:               ":: hiddenillusion ::"
 tagline:             "... look beyond"
-quote:				       "My crime is being curious"
+quote:               "My crime is being curious"
 url:                 "https://hiddenillusion.github.io"
-baseurl:             "/"
+#baseurl:             "/"
 paginate:            5
-#paginate_path:		"/blog/page:num"
-timezone:			'America/New_York'
+#paginate_path:     "/blog/page:num"
+timezone:           'America/New_York'
 
 # Author Information
 author:
   name:              "Glenn Edwards"
-  fullname:			     "Glenn P. Edwards Jr."
+  fullname:          "Glenn P. Edwards Jr."
   url:               https://hiddenillusion.github.io
   description:       "geek, forensicator, researcher & traveler"
 
