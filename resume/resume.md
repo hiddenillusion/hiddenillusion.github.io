@@ -131,7 +131,7 @@ training:
       name: Computer Forensics Training
       organization: InfoSec Institute
 
-buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timeline/Plaso, Timesketch, EnCase, REMnux, YARA, Windows, Mac, Linux, python, bash, scripting, forensics, incident response, dfir, malware, reverse engineering, open source, GitHub]
+buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timeline/Plaso, Timesketch, EnCase, REMnux, YARA, Windows, Mac, Linux, python, bash, scripting, forensics, incident response, dfir, malware, reverse engineering, open source, GitHub, AWS]
 ---
 
 <div class="resume-header">
