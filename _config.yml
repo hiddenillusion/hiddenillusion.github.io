@@ -48,7 +48,7 @@ exclude:
   - .gitignore
   - Gemfile.lock
 
-gems:
+plugins:
 #- jekyll-archives
 - jekyll-feed
 - jekyll-paginate
