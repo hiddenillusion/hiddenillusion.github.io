@@ -2,7 +2,7 @@
 - [lanyon](https://github.com/poole/lanyon) theme
 	- this theme's sidebar was also flipped to provide a TOC layout for posts; [pure drawer](https://github.com/mac81/pure-drawer) & [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) looked promising as alternatives
 - [Notepad](https://github.com/hmfaysal/Notepad/blob/gh-pages/index.html), [Foundation](http://foundation.zurb.com/sites/download.html) & [animate](https://github.com/daneden/animate.css) were used to create the blog post index page.
-- tooltips based on [indigo](https://github.com/sergiokopplin/indigo) & [MilanAryal]https://github.com/MilanAryal/milanaryal.github.io
+- tooltips based on [indigo](https://github.com/sergiokopplin/indigo) & [MilanAryal](https://github.com/MilanAryal/milanaryal.github.io)
 - Sitemap based on [made mistakes](https://github.com/mmistakes/made-mistakes-jekyll) & [slickmap](https://github.com/astuteo/slickmap)
 - archives
 	- [jekyll-archives](https://github.com/jekyll/jekyll-archives) ended up creating too many additional files & I felt continuously having to generate & commit was going to be more overhead than I'd want.
