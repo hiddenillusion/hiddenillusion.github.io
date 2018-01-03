@@ -68,7 +68,13 @@ employment:
       url: https://www.fireeye.com
       position: Principal Incident Response Consultant
       started: 2016
-      duration: December 2016 - Present
+      duration: December 2016 - January 2018
+    - work8:
+      company: FireEye
+      url: https://www.fireeye.com
+      position: Technical Director
+      started: 2018
+      duration: January 2018 - Present
 
 presentations:
     - presentation1:
