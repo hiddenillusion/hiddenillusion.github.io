@@ -13,14 +13,14 @@ blogger_orig_url: http://hiddenillusion.blogspot.com/2014/03/bruteforcing-xor-wi
 
 # Background
 
-In a previous [post](http://hiddenillusion.blogspot.com/2013/01/nomorexor.html) I looked at coming up with a process for determining XOR keys that were 256 bytes.  I've received and have read some great feedback/posts regarding the tool and even though I wrote it in such a way to try and still possibly see patterns/repetitive bytes for smaller XOR keys, that wasn't its purpose.  There are plenty of other tools out there to try and assist oneself when dealing with XOR'ed files, however, recently a [co-worker](https://twitter.com/Tekdefense) and I were left unsuccessful after exhausting those resources.
+In a previous [post](https://hiddenillusion.github.io/2013/01/22/nomorexor/) I looked at coming up with a process for determining XOR keys that were 256 bytes.  I've received and have read some great feedback/posts regarding the tool and even though I wrote it in such a way to try and still possibly see patterns/repetitive bytes for smaller XOR keys, that wasn't its purpose.  There are plenty of other tools out there to try and assist oneself when dealing with XOR'ed files, however, recently a [co-worker](https://twitter.com/Tekdefense) and I were left unsuccessful after exhausting those resources.
 
 I'm often asked to look at some artifact that's believed to be encoded in some fashion or hear that even if something is XOR'ed that they wouldn't know how to go about decrypting/decoding it.  I'm by no means an expert and sometimes find myself just as lost as you might feel but I thrive on learning and challenges, hence why I decided to work in the dfir space.
 
 I believe this type of scenario is just like most others - the more time you spend doing it, the easier it becomes.  Additionally, pattern recognition is key when it comes to XOR (pun intended).  Determining the XOR key and any other skips etc. that might be used can be quite trivial, but let's look at a few ways that make this type of scenario harder:
 
-- You don't have access to the source code of the file responsible for performing the XOR 
-- You don't have access to the binary  responsible for performing the XOR 
+- You don't have access to the source code of the file responsible for performing the XOR
+- You don't have access to the binary  responsible for performing the XOR
 - You don't have the knowledge/skills/resources
 - The key you think should work isn't working
 

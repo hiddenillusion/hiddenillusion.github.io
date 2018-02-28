@@ -11,7 +11,7 @@ blogger_id: tag:blogger.com,1999:blog-7113964657426756490.post-27787149677641344
 blogger_orig_url: http://hiddenillusion.blogspot.com/2013/01/nomorexor.html
 ---
 
-> Update 04/09/2013 - **NoMoreXOR is now included in REMnux as of version 4.**
+> Update 04/09/2013 - **NoMoreXOR is now included in [REMnux](https://remnux.org/docs/distro/tools/) as of version 4.**
 
 Have you ever been faced with a file that was [XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)'ed with a 256 byte key? While it may not be the most common length for an XOR key, it's still something that has popped up enough over the last few months ([1](http://labs.alienvault.com/labs/index.php/2012/cve-2012-1535-adobe-flash-being-exploited-in-the-wild/), [2](http://blog.accuvantlabs.com/blog/emiles/analyzing-cve-2012-0158), [3](https://www.securelist.com/en/blog/774/A_Targeted_Attack_Against_The_Syrian_Ministry_of_Foreign_Affairs), [4](http://contagiodump.blogspot.com/2012/06/90-cve-2012-0158-documents-for-testing.html)) to make it on my to-do list.  If you take a look at first the two links mentioned above you'll see they both include some in-house tool(s) which do some magic and provide you with the XOR key.  Even though they both state that at some point their tools will be released, that doesn't help me now.
 
@@ -100,13 +100,13 @@ So now we can kind of put together a process flow of what we want to do:
 3. For each possible XOR key guessed from the previous step, XOR (the entire file for right now) the original file, save it to a new file and scan it with YARA.  
 	1. I chose to perform YARA scans here to help determine the likelihood that the key used was correct - you may choose to implement something else such as just a check for an embedded PE file etc.  If there are YARA hits then I stop attempting the other possible XOR keys (if any other were still to be processed) and assume the previous XOR key was the correct one.
 
-> If you stick with the YARA scanning, it will continue to process all of the possible key(s) it outlined as the top, in terms of frequency, so your YARA rules should include something that might be present in the original XOR'ed file.  If not, you might already have the correct XOR key but aren't aware.  Embedded exe's are a good start to look for since they're common - but remember if we XOR the entire file at once instead of a specific section that you might find the embedded content but that doesn't mean the original file will be readable afterwards (i.e - won't be a Word document anymore since it was XOR'ed) 
+> If you stick with the YARA scanning, it will continue to process all of the possible key(s) it outlined as the top, in terms of frequency, so your YARA rules should include something that might be present in the original XOR'ed file.  If not, you might already have the correct XOR key but aren't aware.  Embedded exe's are a good start to look for since they're common - but remember if we XOR the entire file at once instead of a specific section that you might find the embedded content but that doesn't mean the original file will be readable afterwards (i.e - won't be a Word document anymore since it was XOR'ed)
 
 Let's try out that process flow in a more automated way (on a new file):
 
 ![Auto Processed]({{ site.url }}/assets/images/blog/{{ page.image_folder }}/auto_processed.jpg)
 
-As you can see, it worked like a charm :metal: 
+As you can see, it worked like a charm :metal:
 
 As always, I'm sure there's a better way to code some of the stuff I did but hey, it works for me at the moment.  There's a to-do list of things that I want to further implement into this tool, some of which is already included in other tools.  I've been asked before how this tools will work with smaller XOR keys and that's up to you to test and tell me - I created this in order to tackle the problem solely of the 256 byte key files I was observing so I'd recommend using one of the earlier mentioned tools for that situation, at least for the time being.
 
