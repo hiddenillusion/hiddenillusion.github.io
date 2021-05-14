@@ -4,7 +4,7 @@ title: " :: Resume"
 menu: $ whoami
 permalink: /resume/
 
-summary: Glenn P. Edwards Jr. is an inquisitive and motivated forensicator looking to advance his knowledge and technical skills in Incident Response, Digital Forensics and Hunting large data sets. Having a thirst for being challenged paired with strong analytical skills has enabled him to both successfully manage and provide assistance across various high profile, large and complex engagements including those related to nation state adversaries, credit card breaches and malware outbreaks.
+summary: Glenn is a reliable and motivated forensicator looking to advance his knowledge and technical skills in Incident Response, Cloud Forensics and Hunting large data sets.  Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex engagements including those involving nation state adversaries and supply-chain compromises.
 
 education:
     - school1:
