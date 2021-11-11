@@ -30,21 +30,18 @@ employment:
       position: Security Analyst
       started: 2010
       duration: February 2010 – November 2010
-      description: Worked as a security analyst at the Cyber Security Analysis Center (CSAC) in a project with the State of New York - Office of Cyber Security and Critical Infrastructure Coordination (CSCIC) and Multi-State Information Sharing and Analysis Center (MS-ISAC).  Responsibilities and daily tasks included Intrusion Detection, Malware Analysis and Network/Web Application Vulnerability Testing.
     - work2:
       company: Center for Internet Security
       url: https://www.cisecurity.org
       position: Sr. Analyst
       started: 2010
       duration: November 2010 – April 2011
-      description: Worked as a Sr. Analyst on the Multi-State Information Sharing and Analysis Center’s (MS-ISAC) CERT, a division of the Center for Internet Security (CIS), where I conducted Digital Forensics Examinations and Malware Analysis to Local, State and Federal Government entities.
     - work3:
       company: Foundstone
       url: https://www.foundstone.com
       position: Sr. Consultant
       started: 2011
       duration: May 2011 – February 2013
-      description: Worked as a Sr. Consultant on Foundstone's Incident Response team where I specialized in Digital Forensics and Malware Analysis. Additionally, I co-taught the Malware Forensics & Incident Response Education (MFIRE) course (BlackHat Vegas ’12)
     - work4:
       company: Bridgewater Associates
       url: https://www.bridgewater.com
