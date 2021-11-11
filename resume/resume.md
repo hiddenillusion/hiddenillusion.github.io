@@ -64,17 +64,23 @@ employment:
       started: 2013
       duration: April 2013 - December 2016
     - work7:
-      company: FireEye
-      url: https://www.fireeye.com
+      company: Mandiant
+      url: https://www.mandiant.com
       position: Principal Incident Response Consultant
       started: 2016
       duration: December 2016 - January 2018
     - work8:
-      company: FireEye
-      url: https://www.fireeye.com
+      company: Mandiant
+      url: https://www.mandiant.com
       position: Technical Director
       started: 2018
-      duration: January 2018 - Present
+      duration: January 2018 - October 2021
+    - work9:
+      company: Square
+      url: https://www.squareup.com
+      position: Incident Response Engineer
+      started: 2021
+      duration: November 2021 - Present
 
 presentations:
     - presentation1:
