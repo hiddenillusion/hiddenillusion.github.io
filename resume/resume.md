@@ -77,8 +77,14 @@ employment:
       url: https://www.squareup.com
       position: Incident Response Engineer
       started: 2021
-      duration: November 2021 - Present
-
+      duration: November 2021 - December 2021
+    - work10:
+      company: Block
+      url: https://www.block.xyz
+      position: Incident Response Engineer
+      started: 2021
+      duration: December 2021 - Present
+      
 presentations:
     - presentation1:
       year: 2012
