@@ -158,20 +158,19 @@ buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timel
             <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
                  <p>
                     <small class="text-muted">
-                        <i class="fa fa-twitter fa-fw"></i>
-                        <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" title="Twitter">  @{{ site.social.twitter }}</a>
+                        <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" title="Twitter"><i class="fa fa-twitter fa-fw"></i></a>
                     </small>
                     <small class="text-muted">
-                        <i class="fa fa-github fa-fw"></i>
-                        <a href="https://github.com/{{ site.social.github }}" target="_blank" title="Github">  {{ site.social.github }}</a>
+                        <a href="https://infosec.exchange/@{{ site.social.mastodon }}" target="_blank" rel="noopener noreferrer me" title="Mastodon"><i class="fa-brands fa-mastodon fa-fw"></i></a>
+                    </small>                
+                    <small class="text-muted">
+                        <a href="https://github.com/{{ site.social.github }}" target="_blank" title="Github"><i class="fa fa-github fa-fw"></i></a>
                     </small>
                     <small class="text-muted">
-                        <i class="fa fa-linkedin-square fa-fw"></i>
-                        <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" title="LinkedIn"> {{ site.social.linkedin }}</a>
+                        <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square fa-fw"></i></a>
                     </small>
                     <small class="text-muted">
-                        <i class="fa fa-slideshare fa-fw"></i>
-                        <a href="https://speakerdeck.com/{{ site.social.speakerdeck }}" target="_blank" title="SpeakerDeck">  {{ site.social.speakerdeck }}</a>
+                        <a href="https://speakerdeck.com/{{ site.social.speakerdeck }}" target="_blank" title="SpeakerDeck"><i class="fa fa-slideshare fa-fw"></i></a>
                     </small>
                 </p>
             </div>
