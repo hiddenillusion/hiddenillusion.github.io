@@ -4,7 +4,7 @@ title: " :: Resume"
 menu: $ whoami
 permalink: /resume/
 
-summary: Glenn is a reliable and motivated forensicator looking to advance his knowledge and technical skills in Incident Response, Cloud Forensics and Hunting large data sets.  Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex engagements including those involving nation state adversaries and supply-chain compromises.
+summary: Glenn is a motivated, proven leader with over 12 years of demonstrated industry experience and security intuition looking to advance his knowledge, leadership and technical skills in Incident Response, Cloud Forensics and Hunting large data sets. Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex cases including those involving nation state adversaries and supply-chain compromises.
 
 education:
     - school1:
