@@ -131,11 +131,11 @@ certifications:
 
 training:
     - class1:
-      name: Windows Malware and Memory Forensics Training
-      organization: The Volatility Project
-    - class2:
       name: A Practical Approach to Breaking and Pwning Kubernetes Clusters
       organization: Black Hat Europe (2022)
+    - class2:
+      name: Windows Malware and Memory Forensics Training
+      organization: The Volatility Project (2014)
     - class3:
       name: EnCase's Computer Forensics II, Advanced Internet Forensics and Macintosh-Linux Examinations
       organization: Guidance Software
