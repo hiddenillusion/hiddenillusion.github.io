@@ -4,7 +4,7 @@ permalink:           pretty #"/blog/:year/:month/:day/:title"
 # Site Settings
 title:               ":: hiddenillusion ::"
 tagline:             "... look beyond"
-quote:               "My crime is being curious"
+quote:               "Sharing is caring"
 url:                 "https://hiddenillusion.github.io"
 #baseurl:             "/"
 paginate:            5
