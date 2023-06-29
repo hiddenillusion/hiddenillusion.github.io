@@ -134,17 +134,17 @@ training:
       name: Windows Malware and Memory Forensics Training
       organization: The Volatility Project
     - class2:
+      name: A Practical Approach to Breaking and Pwning Kubernetes Clusters
+      organization: Black Hat Europe (2022)
+    - class3:
       name: EnCase's Computer Forensics II, Advanced Internet Forensics and Macintosh-Linux Examinations
       organization: Guidance Software
-    - class3:
+    - class4:
       name: Internet Forensics and Microsoft Windows Registry Forensics
       organization: Access Data
-    - class4:
+    - class5:
       name: Offsec 101 - Pentesting with BackTrack
       organization: Offensive Security
-    - class5:
-      name: Computer Forensics Training
-      organization: InfoSec Institute
 
 buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timeline/Plaso, Timesketch, EnCase, REMnux, YARA, Windows, Mac, Linux, python, bash, scripting, forensics, incident response, dfir, malware, reverse engineering, open source, GitHub, AWS]
 ---
