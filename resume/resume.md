@@ -4,9 +4,7 @@ title: " :: Resume"
 menu: $ whoami
 permalink: /resume/
 
-summary: Glenn is a motivated, proven leader with over 13 years of demonstrated industry experience and security intuition looking to advance his knowledge, leadership and technical skills in Incident Response, Cloud Forensics, Signals development and Hunting large data sets.
-
-Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex cases including those involving nation state adversaries and supply-chain compromises.
+summary: Glenn is a motivated, proven leader with over 13 years of demonstrated industry experience and security intuition looking to advance his knowledge, leadership and technical skills in Incident Response, Cloud Forensics, Signals development and Hunting large data sets. Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex cases including those involving nation state adversaries and supply-chain compromises.
 
 education:
     - school1:
@@ -303,10 +301,5 @@ buzzwords: [The Sleuth Kit, Bulk Extractor, WinHex/X-Ways, Volatility, Log2timel
                 {% endfor %}
             </ul>
         </div>
-    </div>
-
-    <h3 class="resume-title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
-    <div class="grid-block">
-        <iframe src="https://www.google.com/maps/embed/v1/place?q=newyork&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
     </div>
 </div>
