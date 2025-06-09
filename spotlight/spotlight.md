@@ -128,10 +128,12 @@ publications:
     Sharing is caring and knowledge is power
   <i class="fa fa-quote-right"></i>
 
+- [Panther MCP](https://github.com/panther-labs/mcp-panther/blob/main/.github/CONTRIBUTORS.md)
 - [Volatility](https://github.com/volatilityfoundation/volatility/graphs/contributors)
 - [Volatility Community](https://github.com/volatilityfoundation/community/graphs/contributors)
 - [python-registry](https://github.com/williballenthin/python-registry/graphs/contributors)
 - [INDXParse](https://github.com/williballenthin/INDXParse/graphs/contributors)
 
 ### <i class="fa fa-pencil"></i> Guest Posts
+- [Democratizing Detection Engineering at Block: Taking Flight with Goose and Panther MCP](https://block.github.io/goose/blog/2025/06/02/goose-panther-mcp/)
 - [Windows Timestamp Tampering](http://blog.opensecurityresearch.com/2012/01/windows-timestamp-tampering.html)
