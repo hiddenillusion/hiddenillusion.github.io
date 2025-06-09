@@ -4,7 +4,9 @@ title: " :: Resume"
 menu: $ whoami
 permalink: /resume/
 
-summary: Glenn is a motivated, proven leader with over 12 years of demonstrated industry experience and security intuition looking to advance his knowledge, leadership and technical skills in Incident Response, Cloud Forensics and Hunting large data sets. Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex cases including those involving nation state adversaries and supply-chain compromises.
+summary: Glenn is a motivated, proven leader with over 13 years of demonstrated industry experience and security intuition looking to advance his knowledge, leadership and technical skills in Incident Response, Cloud Forensics, Signals development and Hunting large data sets.
+
+Seeking out challenging situations and utilizing strong analytical skills has enabled him to successfully lead and support various high profile, large and complex cases including those involving nation state adversaries and supply-chain compromises.
 
 education:
     - school1:
@@ -83,8 +85,14 @@ employment:
       url: https://www.block.xyz
       position: Incident Response Engineer
       started: 2021
-      duration: December 2021 - Present
-      
+      duration: December 2021 - September 2024
+    - work11:
+      company: Block
+      url: https://www.block.xyz
+      position: Detection Engineer
+      started: 2024
+      duration: September 2024 - Present
+
 presentations:
     - presentation1:
       year: 2012
